@@ -1,0 +1,24 @@
+{
+  "name": "RS Career Day Site",
+  "homepage": "http://mcmullengreg.github.io/rs-career-day",
+  "authors": [
+    "Gregory McMullen <mcmullen.greg@gmail.com>"
+  ],
+  "description": "Simple presentation for the RS career day",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "fontawesome#~4.5.0",
+    "bourbon": "~4.2.6"
+  }
+}
