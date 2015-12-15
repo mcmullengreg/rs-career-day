@@ -202,8 +202,24 @@ Slide Content
 	right: 20px;
 }
 .cd-slider-content p {
-  margin: 1em 0 2em;
-  opacity: .6;
+  margin: 1em 0;
+  line-height: 1.35;
+  opacity: .7;
+}
+.cd-slider-content pre{
+	white-space: pre-line;
+	background: rgba(255,255,255,0.75);
+	width: auto;
+	display: inline-block;
+	text-align: left;
+	height: 400px;
+	overflow-y: scroll;
+	padding:5px;
+	margin-top:15px;
+}
+.cd-slider-content code{
+	color:#b21b1b;
+	font-family: monospace;
 }
 @media only screen and (min-width: 1100px) {
   .cd-slider-content {
